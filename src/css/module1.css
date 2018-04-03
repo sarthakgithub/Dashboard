@@ -1,0 +1,138 @@
+body{
+    background: lightgray;
+}
+
+.navLinks{
+    display: inline-block;
+    width: 24%;
+}
+
+.overviewContainer,.responseRate,.practiceContainer,.outcomeContainer,.accordionContainer,.filterContainer{
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+}
+
+.overviewContainer div{
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+}
+
+.overviewContainer img{
+    margin: 0 auto;
+    display: block;
+}
+
+.overviewContainer p{
+    text-align: center;
+}
+
+
+.responseRate div{
+    display: inline-block;
+    font-size: 24px;
+}
+
+.responseRate p{
+    display: inline-block;
+}
+
+.practiceNav p, .outcomeNav p{
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+}
+
+.practiceNav div , .outcomeNav div{
+    display: inline-block;
+    width: 48%;
+    text-align: center;
+}
+
+.comments div p{
+    display: inline-block;
+    width: 65%;
+}
+
+.comments div{
+    padding: 20px;
+    margin-left: 17%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: block;
+}
+
+li {
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: #fff;
+}
+.show{
+    display: block;
+    border:1px solid black;
+    background: #e8e4e4;
+    margin-left: 21%;
+}
+
+.hide{
+    display: none;
+}
+
+.textHead{
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+.summary,.marks,.diff{
+    display: inline-block;
+    width: 32%;
+}
+
+.filterContainer div select {
+    width: 100%;
+}
+
+input[type="button"]{
+    margin: 5px 5px 5px 0;
+}
+
+.popup{
+    border-radius:2px;
+    border:1px solid black;
+    padding: 10px;
+    min-height: 100px;
+    position: absolute;
+    background: grey;
+    width: 20%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+}
+
+.months{
+    width: 32%;
+    display: inline-block;
+}
+
+.calendar{
+    margin-left:20px !important;
+}
